@@ -10,7 +10,7 @@ namespace _01_MainSupjects
             Dashes = "------------------------------------------------------------------------------------------------------------------------";
             string CatCoins;
             CatCoins = "CC";
-
+            //github 
             #region Eğitim_Kodları
 
             #region Yazdırma_Komutları
