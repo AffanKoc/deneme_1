@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _01_MainSupjects
+namespace _01_MainSupject
 {
     internal class Program
     {
@@ -10,7 +10,6 @@ namespace _01_MainSupjects
             Dashes = "------------------------------------------------------------------------------------------------------------------------";
             string CatCoins;
             CatCoins = "CC";
-            //github 
             #region Eğitim_Kodları
 
             #region Yazdırma_Komutları
@@ -393,7 +392,7 @@ namespace _01_MainSupjects
 
             #region Karar Yapıları
 
-            #region If Else
+            #region If Else = Ömer abiye sorulacak var
 
             #region Proje_1
 
@@ -436,6 +435,164 @@ namespace _01_MainSupjects
             //}
 
             #endregion
+
+            #region Proje_3
+
+            //int number;
+            //Console.Write("Sayıyı giriniz: ");
+            //number = int .Parse(Console.ReadLine());
+            //if (number == 2)
+            //{
+            //    Console.WriteLine("Sayı doğru😺");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Sayı yanlış😾");
+            //}
+
+            #endregion
+
+            #region Proje_4 = Ömer abiye sorulacak
+
+            int exam1;
+            int exam2;
+            int exam3;
+            int average;
+            string result = "Hata!";
+
+            Console.Write("Sınav 1: ");
+            exam1 = int.Parse(Console.ReadLine());
+            Console.Write("Sınav 2: ");
+            exam2 = int.Parse(Console.ReadLine());
+            Console.Write("Sınav 3: ");
+            exam3 = int.Parse(Console.ReadLine());
+            average = (exam1 + exam2 + exam3) / 3;
+            Console.WriteLine("Sınavların ortalaması: " + average);
+            Console.WriteLine();
+
+            if (average <= 0 & average >= 49)
+            {
+                result = ("Yetersiz geliştirilmeli");
+            }
+
+            if (average <= 50 & average >= 60)
+            {
+                result = ("Yeterli ama geliştirilebilir");
+            }
+
+            if (average <= 61 & average >= 70)
+            {
+                result = ("Ortalama");
+            }
+
+            if (average <= 71 & average >= 84)
+            {
+                result = ("Güzel");
+            }
+
+            if (average <= 85 & average >= 99)
+            {
+                result = ("Çok iyi");
+            }
+
+            if (average == 100)
+            {
+                result = ("Sanki Einstan");
+            }
+
+            if (average >= 101)
+            {
+                result = ("?????????????...????????????????");
+            }
+
+            Console.WriteLine("Sonuç: " + result);
+
+            #endregion
+
+            #region Proje_5
+
+            //string city;
+            //Console.Write("ŞEhrinizi giriniz: ");
+            //city = Console.ReadLine();
+
+            //if (city == "İzmir" | city == "Samsun" | city == "Sivas" | city == "Uşak")
+            //{
+            //    Console.WriteLine("Şehir mevcuttur");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Şehir mevcutdeğildir");
+            //}
+
+            #endregion
+
+            #region Proje_6
+
+            //Console.Write("Kullanıcı adınızı giriniz: ");
+            //string username = Console.ReadLine();
+            //if (username != "Ponçik")
+            //{
+            //    Console.WriteLine("Yanlış kullanıcı adı");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Doğru kullanıcı adı uygulama açılıyor");
+            //}
+
+            #endregion
+
+            #region Proje_7
+
+            //Char team;
+            //Console.Write("Takımınızın baş harfini giriniz: ");
+            //team = char.Parse(Console.ReadLine());
+
+            //if (team == 'k' | team == 'K')
+            //{
+            //    Console.WriteLine("Kedispor   Has kedi işte böyle olur");
+            //}
+
+            //if (team == 'ö' | team == 'Ö')
+            //{
+            //    Console.WriteLine("Köpekspor   Vatan hayini");
+            //}
+
+            //if (team == 'u' | team == 'U')
+            //{
+            //    Console.WriteLine("Kuşspor   Nam Nam");
+            //}
+
+            #endregion
+
+            #endregion
+
+            #region Mod işlemleri
+
+            #region Proje_1
+
+            //int number;
+            //number = 26;
+            //int Result = number % 5;
+            //Console.WriteLine(Result);
+
+            #endregion
+
+            #region Proje_2
+
+            //Console.Write("1.sayıdan gelen değeri okyunuz: ");
+            //int number1 = int.Parse(Console.ReadLine());
+
+            //Console.Write("2.sayıdan gelen değeri okyunuz: ");
+            //int number2 = int.Parse(Console.ReadLine());
+
+            //int result = number1 % number2;
+
+            //Console.WriteLine();
+            //Console.WriteLine("1. ve 2. sayının bölümünden kalan değer= " + result);
+
+            #endregion
+
+
 
             #endregion
 
